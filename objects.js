@@ -5,6 +5,5 @@ function updatePlaylist(playlist, artistName, songTitle){
   }
 
 function removeFromPlaylist(playlist, artistName){
-  delete playlist['Slowdrive']
-  return playlist
+  return delete playlist['Slowdrive']
   }
